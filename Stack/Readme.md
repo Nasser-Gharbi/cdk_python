@@ -50,4 +50,4 @@ FifthStack Deploy
 
 Destroy stacks
 
-    cdk destroy First-Stack Fourth-Stack Second-Stack Third-Stack FifthStack
+    cdk destroy First-Stack Fourth-Stack Second-Stack Third-Stack Fifth-Stack
