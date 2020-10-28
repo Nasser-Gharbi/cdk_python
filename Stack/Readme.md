@@ -41,7 +41,7 @@ Fourth Stack Deploy
 
 FifthStack Deploy
 
-    cdk deploy FifthStack \
+    cdk deploy Fifth-Stack \
     --parameters FirstDynamodbName=Dynamodb_statisticsOnInformationServices  \
     --parameters SecondDynamodbName=Dynamodb_statisticsOnAssistanceServices \
     --parameters ThirdDynamodbName=Dynamodb_feedbackOnQuality  \
