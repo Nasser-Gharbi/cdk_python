@@ -42,10 +42,10 @@ Fourth Stack Deploy
 FifthStack Deploy
 
     cdk deploy FifthStack \
-    --parameters FirstDynamodbName=Dynamodb1  \
-    --parameters SecondDynamodbName=Dynamodb2 \
-    --parameters ThirdDynamodbName=Dynamodb3  \
-    --parameters FourthDynamodbName=Dynamodb4
+    --parameters FirstDynamodbName=Dynamodb_statisticsOnInformationServices  \
+    --parameters SecondDynamodbName=Dynamodb_statisticsOnAssistanceServices \
+    --parameters ThirdDynamodbName=Dynamodb_feedbackOnQuality  \
+    --parameters FourthDynamodbName=Dynamodb_feedbackOnObstacles
 
 
 Destroy stacks
